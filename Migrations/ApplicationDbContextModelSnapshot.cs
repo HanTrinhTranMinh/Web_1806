@@ -49,7 +49,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("BaoCao");
+                    b.ToTable("BaoCaos");
                 });
 
             modelBuilder.Entity("GymManagement.Models.CaLamViec", b =>
@@ -77,7 +77,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("UserID_User");
 
-                    b.ToTable("CaLamViec");
+                    b.ToTable("CaLamViecs");
                 });
 
             modelBuilder.Entity("GymManagement.Models.GoiTap", b =>
@@ -117,7 +117,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("GoiTap");
+                    b.ToTable("GoiTaps");
                 });
 
             modelBuilder.Entity("GymManagement.Models.HoaDon_ThanhLy", b =>
@@ -146,7 +146,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("HoaDon_ThanhLy");
+                    b.ToTable("HoaDon_ThanhLys");
                 });
 
             modelBuilder.Entity("GymManagement.Models.HoaDon_ThanhToan", b =>
@@ -175,7 +175,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("HoaDon_ThanhToan");
+                    b.ToTable("HoaDon_ThanhToans");
                 });
 
             modelBuilder.Entity("GymManagement.Models.HoiVien", b =>
@@ -264,7 +264,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("LichTap");
+                    b.ToTable("LichTaps");
                 });
 
             modelBuilder.Entity("GymManagement.Models.PhanCong", b =>
@@ -300,7 +300,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("createdByAdminID");
 
-                    b.ToTable("PhanCong");
+                    b.ToTable("PhanCongs");
                 });
 
             modelBuilder.Entity("GymManagement.Models.PhongTap", b =>
@@ -334,7 +334,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_ThietBi");
 
-                    b.ToTable("PhongTap");
+                    b.ToTable("PhongTaps");
                 });
 
             modelBuilder.Entity("GymManagement.Models.QuanLy_NhanVien", b =>
@@ -357,7 +357,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("QuanLy_NhanVien");
+                    b.ToTable("QuanLy_NhanViens");
                 });
 
             modelBuilder.Entity("GymManagement.Models.Role", b =>
@@ -373,9 +373,34 @@ namespace GymManagement.Migrations
                         .HasMaxLength(255)
                         .HasColumnType("nvarchar(255)");
 
+                    b.Property<string>("tenRole")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
                     b.HasKey("ID_Role");
 
-                    b.ToTable("Role");
+                    b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            ID_Role = 1,
+                            mota = "Admin",
+                            tenRole = ""
+                        },
+                        new
+                        {
+                            ID_Role = 2,
+                            mota = "QuanLy",
+                            tenRole = ""
+                        },
+                        new
+                        {
+                            ID_Role = 3,
+                            mota = "HoiVien",
+                            tenRole = ""
+                        });
                 });
 
             modelBuilder.Entity("GymManagement.Models.TheHoiVien", b =>
@@ -414,7 +439,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("TheHoiVien");
+                    b.ToTable("TheHoiViens");
                 });
 
             modelBuilder.Entity("GymManagement.Models.ThietBi", b =>
@@ -445,7 +470,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_User");
 
-                    b.ToTable("ThietBi");
+                    b.ToTable("ThietBis");
                 });
 
             modelBuilder.Entity("GymManagement.Models.User", b =>
@@ -471,7 +496,7 @@ namespace GymManagement.Migrations
 
                     b.HasIndex("ID_Role");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("GymManagement.Models.BaoCao", b =>

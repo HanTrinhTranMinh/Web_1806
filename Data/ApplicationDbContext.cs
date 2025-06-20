@@ -15,19 +15,19 @@ public class ApplicationDbContext : DbContext
     // public DbSet<YourEntity> YourEntities { get; set; }
     public DbSet<HoiVien> HoiViens { get; set; }
     public DbSet<PhongTap> PhongTaps { get; set; }
-    public DbSet<PhongTap> BaoCaos { get; set; }
-    public DbSet<PhongTap> CaLamViecs { get; set; }
-    public DbSet<PhongTap> GoiTaps { get; set; }
-    public DbSet<PhongTap> HoaDon_ThanhLys { get; set; }
-    public DbSet<PhongTap> HoaDon_ThanhToans { get; set; }
-    public DbSet<PhongTap> PhanCongs { get; set; }
+    public DbSet<BaoCao> BaoCaos { get; set; }
+    public DbSet<CaLamViec> CaLamViecs { get; set; }
+    public DbSet<GoiTap> GoiTaps { get; set; }
+    public DbSet<HoaDon_ThanhLy> HoaDon_ThanhLys { get; set; }
+    public DbSet<HoaDon_ThanhToan> HoaDon_ThanhToans { get; set; }
+    public DbSet<PhanCong> PhanCongs { get; set; }
 
-    public DbSet<PhongTap> LichTaps { get; set; }
-    public DbSet<PhongTap> QuanLy_NhanViens { get; set; }
-    public DbSet<PhongTap> Roles { get; set; }
-    public DbSet<PhongTap> TheHoiViens { get; set; }
-    public DbSet<PhongTap> ThietBis { get; set; }
-    public DbSet<PhongTap> Users { get; set; }
+    public DbSet<LichTap> LichTaps { get; set; }
+    public DbSet<QuanLy_NhanVien> QuanLy_NhanViens { get; set; }
+    public DbSet<Role> Roles { get; set; }
+    public DbSet<TheHoiVien> TheHoiViens { get; set; }
+    public DbSet<ThietBi> ThietBis { get; set; }
+    public DbSet<User> Users { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -58,7 +58,14 @@ public class ApplicationDbContext : DbContext
             .WithMany(u => u.PhanCongsCreated)
             .HasForeignKey(p => p.createdByAdminID)
             .OnDelete(DeleteBehavior.Restrict);
-    }
 
+         // Seed dữ liệu cho bảng Role
+        modelBuilder.Entity<Role>().HasData(
+            new Role { ID_Role = 1, mota = "Admin" },
+            new Role { ID_Role = 2, mota = "QuanLy" },
+            new Role { ID_Role = 3, mota = "HoiVien" }
+        );
+
+    }
 }
 

@@ -24,6 +24,7 @@ public class User
     [EmailAddress]
     public string email { get; set; } = string.Empty;
 
+    [Required]
     public int ID_Role { get; set; } // Quyền hạn trong hệ thống của bạn
 
     [ForeignKey("ID_Role")]

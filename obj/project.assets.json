@@ -5056,11 +5056,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Web_1806\\GymManagement.csproj",
+      "projectUniqueName": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\GymManagement.csproj",
       "projectName": "GymManagement",
-      "projectPath": "E:\\Web_1806\\GymManagement.csproj",
+      "projectPath": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\GymManagement.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "E:\\Web_1806\\obj\\",
+      "outputPath": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -11,6 +11,9 @@ public class Role
     public int ID_Role { get; set; }
 
     [Required]
+    [MaxLength(50)]
+    public string tenRole { get; set; } = string.Empty;
+    
     [MaxLength(255)] // Giả định độ dài NVARCHAR(255)
     public string mota { get; set; } = string.Empty;
 
