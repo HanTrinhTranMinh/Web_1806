@@ -35,6 +35,10 @@ builder.Services.AddServerSideBlazor();
 
 var app = builder.Build();
 
+
+app.UseMiddleware<GymManagement.Middleware.FirebaseAuthMiddleware>();
+app.UseMiddleware<GymManagement.Middleware.RoleAuthorizationMiddleware>();
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {

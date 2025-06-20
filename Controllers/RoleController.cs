@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace GymManagement.Controllers
 {
-    [AuthorizeRole("Admin")]
     public class RoleController : Controller
     {
         private readonly ApplicationDbContext _context;

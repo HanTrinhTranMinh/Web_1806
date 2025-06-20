@@ -2,12 +2,12 @@ using GymManagement.Data;
 using GymManagement.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using GymManagement.Security;
+using Microsoft.AspNetCore.Authorization;
+
 
 
 namespace GymManagement.Controllers
 {
-    [AuthorizeRole("Admin")]
     public class UserController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -43,6 +43,43 @@ namespace GymManagement.Controllers
         public IActionResult Create()
         {
             return View();
+        }
+
+        // POST: /Auth/Register
+        [HttpPost]
+        [AllowAnonymous]
+        public async Task<IActionResult> RegisterFirebaseUser(FirebaseUserModel input)
+        {
+            // input: Firebase UID, email, displayName...
+            var exists = await _context.Users.AnyAsync(u => u.ID_User == input.FirebaseUid);
+            if (exists)
+                return BadRequest("Tài khoản đã tồn tại.");
+
+            var user = new User
+            {
+                ID_User = input.FirebaseUid,
+                TenDangNhap = input.DisplayName,
+                email = input.Email,
+                ID_Role = await _context.Roles.Where(r => r.tenRole == "KhachHang").Select(r => r.ID_Role).FirstAsync()
+            };
+
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+
+            return Ok("Đăng ký thành công.");
+        }
+
+
+        // POST: /Admin/CreateUser
+        public async Task<IActionResult> CreateUser([Bind("ID_User,TenDangNhap,email,ID_Role")] User user)
+        {
+            var exists = await _context.Users.AnyAsync(u => u.ID_User == user.ID_User);
+            if (exists)
+                return BadRequest("Firebase UID đã tồn tại.");
+
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
+            return RedirectToAction("Index");
         }
 
         // POST: User/Create
