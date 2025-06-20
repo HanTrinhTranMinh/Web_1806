@@ -41,7 +41,7 @@ public class User
     public virtual ICollection<GoiTap>? GoTaps { get; set; }
     public virtual ICollection<PhanCong>? PhanCongsAssigned { get; set; } // Người được phân công
     public virtual ICollection<PhanCong>? PhanCongsCreated { get; set; } // Admin tạo phân công
-    public virtual ICollection<CaLamViec>? CaiLamViecs { get; set; } // Giả định có người tạo ca làm việc
+    public virtual ICollection<CaLamViec>? CaLamViecs { get; set; } // Giả định có người tạo ca làm việc
     public virtual ICollection<LichTap>? LichTaps { get; set; }
     public virtual ICollection<HoiVien>? HoiViensCreated { get; set; } // User tạo hội viên
 }

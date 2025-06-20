@@ -23,7 +23,7 @@ public class PhanCong
     public virtual PhongTap? PhongTap { get; set; }
 
     [ForeignKey("ID_CaLam")]
-    public virtual CaLamViec? CaiLamViec { get; set; }
+    public virtual CaLamViec? CaLamViec { get; set; }
 
     [ForeignKey("ID_User")]
     public virtual User? User { get; set; } // Người được phân công

@@ -31,6 +31,8 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -46,8 +48,14 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
+// Cho Razor Pages (nếu có)
+app.MapRazorPages();
+
+// Cho Blazor Server (tùy chọn nếu bạn dùng .razor component)
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
-
 app.Run();

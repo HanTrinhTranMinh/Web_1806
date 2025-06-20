@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250620050616_init")]
-    partial class init
+    [Migration("20250620104519_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -154,11 +154,11 @@ namespace GymManagement.Migrations
 
             modelBuilder.Entity("GymManagement.Models.HoaDon_ThanhToan", b =>
                 {
-                    b.Property<int>("ID_HieuDon")
+                    b.Property<int>("ID_HoaDon")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_HieuDon"));
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID_HoaDon"));
 
                     b.Property<int>("ID_GoiTap")
                         .HasColumnType("int");
@@ -172,7 +172,7 @@ namespace GymManagement.Migrations
                     b.Property<int>("soTien")
                         .HasColumnType("int");
 
-                    b.HasKey("ID_HieuDon");
+                    b.HasKey("ID_HoaDon");
 
                     b.HasIndex("ID_GoiTap");
 
@@ -514,7 +514,7 @@ namespace GymManagement.Migrations
             modelBuilder.Entity("GymManagement.Models.CaLamViec", b =>
                 {
                     b.HasOne("GymManagement.Models.User", null)
-                        .WithMany("CaiLamViecs")
+                        .WithMany("CaLamViecs")
                         .HasForeignKey("UserID_User");
                 });
 
@@ -595,7 +595,7 @@ namespace GymManagement.Migrations
 
             modelBuilder.Entity("GymManagement.Models.PhanCong", b =>
                 {
-                    b.HasOne("GymManagement.Models.CaLamViec", "CaiLamViec")
+                    b.HasOne("GymManagement.Models.CaLamViec", "CaLamViec")
                         .WithMany("PhanCongs")
                         .HasForeignKey("ID_CaLam")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -619,7 +619,7 @@ namespace GymManagement.Migrations
 
                     b.Navigation("AdminCreator");
 
-                    b.Navigation("CaiLamViec");
+                    b.Navigation("CaLamViec");
 
                     b.Navigation("PhongTap");
 
@@ -730,7 +730,7 @@ namespace GymManagement.Migrations
                 {
                     b.Navigation("BaoCaos");
 
-                    b.Navigation("CaiLamViecs");
+                    b.Navigation("CaLamViecs");
 
                     b.Navigation("GoTaps");
 

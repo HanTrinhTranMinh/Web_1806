@@ -7,7 +7,7 @@ namespace GymManagement.Models;
 public class HoaDon_ThanhToan
 {
     [Key]
-    public int ID_HieuDon { get; set; }
+    public int ID_HoaDon { get; set; }
 
     public int ID_GoiTap { get; set; }
     public int soTien { get; set; }

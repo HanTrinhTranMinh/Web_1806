@@ -1,6 +1,8 @@
 ﻿// Models/HoiVien.cs
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using GymManagement.Data;
+
 
 namespace GymManagement.Models;
 

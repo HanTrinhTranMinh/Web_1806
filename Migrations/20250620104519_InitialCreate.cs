@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace GymManagement.Migrations
 {
     /// <inheritdoc />
-    public partial class init : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -189,7 +189,7 @@ namespace GymManagement.Migrations
                 name: "HoaDon_ThanhToans",
                 columns: table => new
                 {
-                    ID_HieuDon = table.Column<int>(type: "int", nullable: false)
+                    ID_HoaDon = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ID_GoiTap = table.Column<int>(type: "int", nullable: false),
                     soTien = table.Column<int>(type: "int", nullable: false),
@@ -198,7 +198,7 @@ namespace GymManagement.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_HoaDon_ThanhToans", x => x.ID_HieuDon);
+                    table.PrimaryKey("PK_HoaDon_ThanhToans", x => x.ID_HoaDon);
                     table.ForeignKey(
                         name: "FK_HoaDon_ThanhToans_GoiTaps_ID_GoiTap",
                         column: x => x.ID_GoiTap,

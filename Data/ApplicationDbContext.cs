@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using GymManagement.Models;
+using GymManagement.Data;
+
 
 namespace GymManagement.Data;
 
@@ -63,7 +65,10 @@ public class ApplicationDbContext : DbContext
         modelBuilder.Entity<Role>().HasData(
             new Role { ID_Role = 1, mota = "Admin" },
             new Role { ID_Role = 2, mota = "QuanLy" },
-            new Role { ID_Role = 3, mota = "HoiVien" }
+            new Role { ID_Role = 3, mota = "HoiVien" },
+            new Role { ID_Role = 1, mota = "NhanVien" },
+            new Role { ID_Role = 1, mota = "Admin" },
+            new Role { ID_Role = 1, mota = "Admin" }
         );
 
     }
