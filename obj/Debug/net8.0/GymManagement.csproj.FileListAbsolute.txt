@@ -180,17 +180,9 @@ E:\Web_1806\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\Web_1806\bin\Debug\net8.0\System.Management.dll
 E:\Web_1806\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
 E:\Web_1806\bin\Debug\net8.0\Firebase2.json
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.csproj.AssemblyReference.cache
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.GeneratedMSBuildEditorConfig.editorconfig
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.AssemblyInfoInputs.cache
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.AssemblyInfo.cs
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.csproj.CoreCompileInputs.cache
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.MvcApplicationPartsAssemblyInfo.cache
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.RazorAssemblyInfo.cache
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.RazorAssemblyInfo.cs
-E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.sourcelink.json
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\appsettings.Development.json
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\appsettings.json
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Firebase.json
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\GymManagement.staticwebassets.runtime.json
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\GymManagement.staticwebassets.endpoints.json
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\GymManagement.exe
@@ -200,6 +192,8 @@ E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\GymManagement.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\GymManagement.pdb
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Azure.Core.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Azure.Identity.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\EPPlus.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\EPPlus.Interfaces.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\FirebaseAdmin.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Google.Api.Gax.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
@@ -224,6 +218,8 @@ E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.EntityFrameworkCor
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Json.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
@@ -239,6 +235,7 @@ E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.IdentityModel.Logg
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Mono.TextTemplating.dll
@@ -259,7 +256,9 @@ E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.IO.Pipelines.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Management.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Memory.Data.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Runtime.Caching.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Security.Permissions.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\System.Text.Json.dll
@@ -340,9 +339,19 @@ E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Sys
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.csproj.AssemblyReference.cache
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.GeneratedMSBuildEditorConfig.editorconfig
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.AssemblyInfoInputs.cache
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.AssemblyInfo.cs
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.csproj.CoreCompileInputs.cache
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.MvcApplicationPartsAssemblyInfo.cache
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.RazorAssemblyInfo.cache
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.RazorAssemblyInfo.cs
+E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.sourcelink.json
 E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\scopedcss\bundle\GymManagement.styles.css
@@ -362,4 +371,3 @@ E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\refint\GymManagement.dll
 E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.pdb
 E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\GymManagement.genruntimeconfig.cache
 E:\WEB NÂNG CAO\Web_2006\Web_1806\obj\Debug\net8.0\ref\GymManagement.dll
-E:\WEB NÂNG CAO\Web_2006\Web_1806\bin\Debug\net8.0\Firebase.json

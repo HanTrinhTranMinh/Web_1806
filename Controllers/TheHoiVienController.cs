@@ -126,6 +126,21 @@ namespace GymManagement.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        //Gia hạn thẻ hội viên
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> GiaHanTheHoiVien(int id, DateTime ngayHetHan)
+        {
+            var theHoiVien = await _context.TheHoiViens.FindAsync(id);
+            if (theHoiVien == null) return NotFound();
+
+            theHoiVien.ngayHetHan = ngayHetHan;
+            _context.Update(theHoiVien);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
         private bool TheHoiVienExists(int id)
         {
             return _context.TheHoiViens.Any(e => e.ID_TheHoiVien == id);

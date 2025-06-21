@@ -1,7 +1,11 @@
+using System.ComponentModel;
 using GymManagement.Data; // Namespace chứa ApplicationDbContext
 using GymManagement.Models; // Namespace chứa model BaoCao
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+
+
+// Add the correct namespace for ExcelHelper below, for example:
 
 namespace GymManagement.Controllers
 {
