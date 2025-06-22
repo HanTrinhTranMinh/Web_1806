@@ -3,6 +3,8 @@ using GymManagement.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authorization;
+using FirebaseAdmin.Auth;
+using Google.Apis.Auth.OAuth2;
 
 
 
@@ -50,7 +52,6 @@ namespace GymManagement.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> RegisterFirebaseUser(FirebaseUserModel input)
         {
-            // input: Firebase UID, email, displayName...
             var exists = await _context.Users.AnyAsync(u => u.ID_User == input.FirebaseUid);
             if (exists)
                 return BadRequest("Tài khoản đã tồn tại.");
@@ -66,11 +67,20 @@ namespace GymManagement.Controllers
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
+            // ✅ Gán role vào Firebase token (custom claims)
+            await FirebaseAuth.DefaultInstance.SetCustomUserClaimsAsync(input.FirebaseUid, new Dictionary<string, object>
+            {
+                { "role", "khachhang" }
+            });
+
             return Ok("Đăng ký thành công.");
         }
 
 
+
         // POST: /Admin/CreateUser
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> CreateUser([Bind("ID_User,TenDangNhap,email,ID_Role")] User user)
         {
             var exists = await _context.Users.AnyAsync(u => u.ID_User == user.ID_User);

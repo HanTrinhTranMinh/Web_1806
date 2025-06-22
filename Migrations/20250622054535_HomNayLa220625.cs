@@ -3,12 +3,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
-
 namespace GymManagement.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class HomNayLa220625 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -371,16 +369,6 @@ namespace GymManagement.Migrations
                         principalTable: "Users",
                         principalColumn: "ID_User",
                         onDelete: ReferentialAction.Restrict);
-                });
-
-            migrationBuilder.InsertData(
-                table: "Roles",
-                columns: new[] { "ID_Role", "mota", "tenRole" },
-                values: new object[,]
-                {
-                    { 1, "Admin", "" },
-                    { 2, "QuanLy", "" },
-                    { 3, "HoiVien", "" }
                 });
 
             migrationBuilder.CreateIndex(

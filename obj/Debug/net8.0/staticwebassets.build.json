@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VQxmLhI0FnazFGFFu42WOENZ+g+6vxE0Po+lxhX6rfs=",
+  "Hash": "BVHAK8iPOZC369fu+J0mJwFVsNdqAS8VKB0OWqo3PDQ=",
   "Source": "GymManagement",
   "BasePath": "_content/GymManagement",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "GymManagement\\wwwroot",
       "Source": "GymManagement",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css",
       "SourceId": "GymManagement",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "GymManagement#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -35,13 +35,13 @@
       "Integrity": "z/IzoW5EGCRYGL1BtRNDV2P+ii7D2hugy0NLqcxrdzA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css"
+      "OriginalItemSpec": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css",
       "SourceId": "GymManagement",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "GymManagement#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -56,13 +56,13 @@
       "Integrity": "z/IzoW5EGCRYGL1BtRNDV2P+ii7D2hugy0NLqcxrdzA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css"
+      "OriginalItemSpec": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/FONT-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.eot",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.otf",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic#[.{fingerprint}]?.woff",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/ICON-LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/open-iconic/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\site.css",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\site.css",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\favicon.ico",
+      "Identity": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\favicon.ico",
       "SourceId": "GymManagement",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\",
+      "ContentRoot": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\",
       "BasePath": "_content/GymManagement",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -335,7 +335,7 @@
   "Endpoints": [
     {
       "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -356,7 +356,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:20 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -380,7 +380,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -401,7 +401,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:20 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -417,7 +417,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -438,7 +438,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -462,7 +462,7 @@
     },
     {
       "Route": "css/bootstrap/bootstrap.min.css.map",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -483,7 +483,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -499,7 +499,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -520,7 +520,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -536,7 +536,7 @@
     },
     {
       "Route": "css/open-iconic/FONT-LICENSE.48tmkg660f",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -557,7 +557,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -581,7 +581,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.cmapd0fi15.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -602,7 +602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -626,7 +626,7 @@
     },
     {
       "Route": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -647,7 +647,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -663,7 +663,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.0uw8dim9nl.eot",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -684,7 +684,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -708,7 +708,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.eot",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -729,7 +729,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -745,7 +745,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.h4d0pazwgy.woff",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -766,7 +766,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -790,7 +790,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ll5grcv8wv.ttf",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -811,7 +811,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -835,7 +835,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.otf",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -856,7 +856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -872,7 +872,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.sjnzgf7e1h.svg",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -893,7 +893,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -917,7 +917,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.svg",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -938,7 +938,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -954,7 +954,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.ttf",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -975,7 +975,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -991,7 +991,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.wk8x8xm0ah.otf",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1012,7 +1012,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1036,7 +1036,7 @@
     },
     {
       "Route": "css/open-iconic/font/fonts/open-iconic.woff",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1057,7 +1057,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1073,7 +1073,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1094,7 +1094,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1110,7 +1110,7 @@
     },
     {
       "Route": "css/open-iconic/ICON-LICENSE.4dwjve0o0b",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1131,7 +1131,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1155,7 +1155,7 @@
     },
     {
       "Route": "css/open-iconic/README.md",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1176,7 +1176,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1192,7 +1192,7 @@
     },
     {
       "Route": "css/open-iconic/README.psxpu4y82n.md",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\open-iconic\\README.md",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\open-iconic\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1213,7 +1213,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1237,7 +1237,7 @@
     },
     {
       "Route": "css/site.1fpfb6x0uo.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\site.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1258,7 +1258,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1282,7 +1282,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\css\\site.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1303,7 +1303,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1319,7 +1319,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\favicon.ico",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1340,7 +1340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1364,7 +1364,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\wwwroot\\favicon.ico",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1385,7 +1385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 20 Jun 2025 04:26:22 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:50 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1401,7 +1401,7 @@
     },
     {
       "Route": "GymManagement.bundle.scp.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1422,7 +1422,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 06:56:54 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1438,7 +1438,7 @@
     },
     {
       "Route": "GymManagement.rh5gvxd42o.bundle.scp.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\GymManagement.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1459,7 +1459,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 06:56:54 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1483,7 +1483,7 @@
     },
     {
       "Route": "GymManagement.rh5gvxd42o.styles.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1504,7 +1504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 06:56:54 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1528,7 +1528,7 @@
     },
     {
       "Route": "GymManagement.styles.css",
-      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2006\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css",
+      "AssetFile": "E:\\WEB NÂNG CAO\\Web_2106\\Web_1806\\obj\\Debug\\net8.0\\scopedcss\\bundle\\GymManagement.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1549,7 +1549,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Jun 2025 06:56:54 GMT"
+          "Value": "Sat, 21 Jun 2025 12:29:48 GMT"
         },
         {
           "Name": "Cache-Control",

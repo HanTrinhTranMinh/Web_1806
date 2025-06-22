@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace GymManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250620104519_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250622054535_HomNayLa220625")]
+    partial class HomNayLa220625
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -384,26 +384,6 @@ namespace GymManagement.Migrations
                     b.HasKey("ID_Role");
 
                     b.ToTable("Roles");
-
-                    b.HasData(
-                        new
-                        {
-                            ID_Role = 1,
-                            mota = "Admin",
-                            tenRole = ""
-                        },
-                        new
-                        {
-                            ID_Role = 2,
-                            mota = "QuanLy",
-                            tenRole = ""
-                        },
-                        new
-                        {
-                            ID_Role = 3,
-                            mota = "HoiVien",
-                            tenRole = ""
-                        });
                 });
 
             modelBuilder.Entity("GymManagement.Models.TheHoiVien", b =>

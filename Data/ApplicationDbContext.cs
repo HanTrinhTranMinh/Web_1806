@@ -61,16 +61,6 @@ public class ApplicationDbContext : DbContext
             .HasForeignKey(p => p.createdByAdminID)
             .OnDelete(DeleteBehavior.Restrict);
 
-         // Seed dữ liệu cho bảng Role
-        modelBuilder.Entity<Role>().HasData(
-            new Role { ID_Role = 1, mota = "Admin" },
-            new Role { ID_Role = 2, mota = "QuanLy" },
-            new Role { ID_Role = 3, mota = "HoiVien" },
-            new Role { ID_Role = 1, mota = "NhanVien" },
-            new Role { ID_Role = 1, mota = "Admin" },
-            new Role { ID_Role = 1, mota = "Admin" }
-        );
-
     }
 }
 

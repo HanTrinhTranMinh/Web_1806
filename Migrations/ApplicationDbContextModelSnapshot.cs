@@ -381,26 +381,6 @@ namespace GymManagement.Migrations
                     b.HasKey("ID_Role");
 
                     b.ToTable("Roles");
-
-                    b.HasData(
-                        new
-                        {
-                            ID_Role = 1,
-                            mota = "Admin",
-                            tenRole = ""
-                        },
-                        new
-                        {
-                            ID_Role = 2,
-                            mota = "QuanLy",
-                            tenRole = ""
-                        },
-                        new
-                        {
-                            ID_Role = 3,
-                            mota = "HoiVien",
-                            tenRole = ""
-                        });
                 });
 
             modelBuilder.Entity("GymManagement.Models.TheHoiVien", b =>
